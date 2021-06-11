@@ -36,7 +36,7 @@ for t = 1:max_time
     % visualize cluster growth: directions(confinements, growth), cells
     % and some data
     allcells = size( cluster,1 );
-    if (allcells >= 1)
+    if (allcells >= 10)
         
         clf;
         figure(1);
